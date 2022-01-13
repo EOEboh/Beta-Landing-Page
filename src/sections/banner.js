@@ -4,7 +4,7 @@ import { jsx, Box, Flex, Container, Heading, Text } from 'theme-ui';
 import { rgba } from 'polished';
 import Image from 'components/image';
 import SubscriptionForm from 'components/subscription-form';
-import illustration from 'assets/images/banner-bg.png';
+import bannerImg from 'assets/images/banner-bg2.jpg';
 import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
@@ -60,7 +60,7 @@ export default Banner;
 
 const styles = {
   section: {
-    background: `transparent url(${illustration}) no-repeat center top / cover`,
+    background: `transparent url(${bannerImg}) no-repeat center top / cover`,
     pt: [18, null, null, 17, null, null, 0],
     pb: [12, null, null, 12, 7, 11, 0],
   },
@@ -84,12 +84,12 @@ const styles = {
       fontSize: [9, null, null, 10, 12, 45, 16],
       lineHeight: [1.31, null, null, 1.5, null, 1.26],
       letterSpacing: [0, null, null, null, '-1.5px'],
-      color: 'textSecondary',
+      color: 'red',
     },
     p: {
       fontSize: ['13px', null, null, 2, 3],
       lineHeight: [1.87, null, null, 2, null, 2.33],
-      color: 'textSecondary',
+      color: 'white',
       maxWidth: [null, null, 370, 470],
       m: ['20px auto 0', null, null, null, '25px auto 0'],
     },

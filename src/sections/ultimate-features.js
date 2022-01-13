@@ -4,7 +4,7 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import icon1 from 'assets/images/features/1.png';
+import icon1 from 'assets/images/banner-bg2.jpg';
 import icon2 from 'assets/images/features/2.png';
 import icon3 from 'assets/images/features/3.png';
 import icon4 from 'assets/images/features/4.png';
@@ -15,7 +15,7 @@ const data = [
   {
     id: 1,
     icon: icon1,
-    path: '#!',
+    path: '/gallery/#wedding',
     title: 'Email Subscription',
     description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
   },
