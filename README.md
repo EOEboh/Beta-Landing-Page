@@ -27,6 +27,7 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 
 ## Live
 You can view a live version of the project [here](https://betalandinginc.netlify.app)
+
 Project is uploaded on both Netlify and Vercel.
 
 I'll be making a few updates as time goes on
