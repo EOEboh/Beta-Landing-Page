@@ -33,9 +33,9 @@ export function Link({ path, label, children, ...rest }) {
 
 export function LearnMore({ path, label, children, ...rest }) {
   return (
-    <NextLink href={path}>
-      <A sx={styles.learnMore} {...rest}>
-        {label ?? 'Learn More'} <IoIosArrowForward size="16px" />
+    <NextLink href={path}> 
+      <A sx={styles.learnMore} {...rest} >
+        {label ?? 'See More'} <IoIosArrowForward size="16px" />
       </A>
     </NextLink>
   );
@@ -53,6 +53,7 @@ const fadeRight = keyframes`
 
 const styles = {
   learnMore: {
+    
     color: 'link',
     cursor: 'pointer',
     fontSize: [1, null, null, '15px'],

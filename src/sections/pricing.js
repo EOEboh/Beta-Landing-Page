@@ -9,58 +9,58 @@ import SectionHeading from 'components/section-heading';
 const data = [
   {
     id: 1,
-    title: 'Starter Pack',
-    amount: 18.99,
+    title: 'Starter Service',
+    amount: '10,000',
     is_recommended: false,
     library_access: true,
     multiple_user: true,
     refund_policy: false,
     google_analytics: false,
     support: false,
-    trial_period: 15,
+    trial_period: 5,
   },
   {
     id: 2,
-    title: 'Premium Pack',
-    amount: 23.99,
+    title: 'Premium Service',
+    amount: '20,000',
     is_recommended: true,
     library_access: true,
     multiple_user: true,
     refund_policy: true,
     google_analytics: false,
     support: false,
-    trial_period: 30,
+    trial_period: 7,
   },
   {
     id: 3,
-    title: 'Custom Pack',
-    amount: 29.99,
+    title: 'Custom Service',
+    amount: '25,000',
     is_recommended: false,
     library_access: true,
     multiple_user: true,
     refund_policy: true,
     google_analytics: true,
     support: false,
-    trial_period: 30,
+    trial_period: 7,
   },
   {
     id: 4,
-    title: 'Ultimate Pack',
-    amount: 35.99,
+    title: 'Ultimate Service',
+    amount: '35,000',
     is_recommended: false,
     library_access: true,
     multiple_user: true,
     refund_policy: true,
     google_analytics: true,
     support: true,
-    trial_period: 45,
+    trial_period: 10,
   },
 ];
 
 const settings = {
   // slidesToShow: 3,
   // slidesToScroll: 1,
-  arrows: false,
+  arrows: true,
   dots: true,
   speed: 500,
   responsive: [
@@ -98,14 +98,14 @@ const Pricing = () => {
       <Container>
         <SectionHeading
           sx={{ mb: [6, null, null, 14] }}
-          slogan="Deal for your business"
-          title="Meet our pricing plan that suit you"
+          slogan="Book a session with us now"
+          title=" Our pricing plan that suit you"
         />
         <Box sx={styles.grid}>
           {isTablet && (
             <ul as="ul" sx={styles.features}>
-              <li>Full Access Library</li>
-              <li>Multiple user</li>
+              <li>12 photoshoot sessions</li>
+              <li>Free Back-up storage </li>
               <li>Refund Policy</li>
               <li>Google Analytics</li>
               <li>24/7 support</li>

@@ -13,7 +13,7 @@ const logos = [
   {
     name: 'Paypal',
     src: paypal,
-  },
+  }, 
   {
     name: 'Google',
     src: google,

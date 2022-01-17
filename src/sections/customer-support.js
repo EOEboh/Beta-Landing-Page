@@ -6,10 +6,10 @@ import Image from 'components/image';
 import support from 'assets/images/support.png';
 
 const list = [
-  'Medical and vision',
-  'Life insurance',
-  'HSAs and FSAs',
-  'Commuter benefits',
+  '30 day refund guarantee',
+  '3 year photo/video back-up',
+  '15% discount for first-time customers',
+  'Digital and Hard-copy',
 ];
 
 const CustomerSupport = () => {
@@ -26,9 +26,7 @@ const CustomerSupport = () => {
               satisfaction.
             </Heading>
             <Text as="p" sx={styles.summary}>
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+              Our photo and video covering sessions is prioritized to making your memories immortal
             </Text>
 
             <Grid sx={styles.list} as="ul">

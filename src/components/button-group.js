@@ -26,7 +26,7 @@ const styles = {
     button: {
       bg: 'transparent',
       border: '0px solid',
-      fontSize: 80,
+      fontSize: 50,
       cursor: 'pointer',
       px: '5px',
       color: '#BBC7D7',

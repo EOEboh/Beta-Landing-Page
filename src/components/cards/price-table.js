@@ -3,6 +3,7 @@
 import { jsx, Box, Button } from 'theme-ui';
 import { IoMdCheckmarkCircle, IoIosCloseCircle } from 'react-icons/io';
 import { rgba } from 'polished';
+import Link from 'next/link';
 
 const FeatureIcon = ({ value }) => {
   return value ? (
@@ -22,15 +23,15 @@ const PriceTable = ({ data }) => {
       >
         <span sx={styles.title}>{data.title}</span>
         <span sx={styles.amount}>
-          ${data.amount}/<small>per mo.</small>
+          NGN{data.amount}/<small>per mo.</small>
         </span>
         <Box as="ul" variant="styles.unStyled" sx={styles.features}>
           <li>
-            <span>Full Access Library</span>
+            <span>12 photoshoot sessions</span>
             <FeatureIcon value={data.library_access} />
           </li>
           <li>
-            <span>Multiple user</span>
+            <span>Free Back-up storage</span>
             <FeatureIcon value={data.multiple_user} />
           </li>
           <li>
@@ -46,13 +47,18 @@ const PriceTable = ({ data }) => {
             <FeatureIcon value={data.support} />
           </li>
         </Box>
+
+        <Link href='/checkout'>  
+        <a target='_blank' style={{textDecoration: 'none'}}>
         <Button
           sx={styles.button}
           variant="primaryOutline"
           className={data.is_recommended ? 'recommended' : ''}
         >
-          Choose Plan
+             Choose Plan 
         </Button>
+             </a>
+          </Link>
         <span sx={styles.trial}>{data.trial_period} days free trial</span>
       </div>
     </div>
@@ -182,6 +188,7 @@ const styles = {
         backgroundColor: 'dark',
       },
     },
+    
   },
   trial: {
     display: 'block',

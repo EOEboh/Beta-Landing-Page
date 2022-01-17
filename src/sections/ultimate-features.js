@@ -4,56 +4,34 @@ import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import icon1 from 'assets/images/banner-bg2.jpg';
-import icon2 from 'assets/images/features/2.png';
-import icon3 from 'assets/images/features/3.png';
-import icon4 from 'assets/images/features/4.png';
-import icon5 from 'assets/images/features/5.png';
-import icon6 from 'assets/images/features/6.png';
+import icon1 from 'assets/images/wedding/wedding1.jpg';
+import icon2 from 'assets/images/grad/grad1.jpg';
+import icon3 from 'assets/images/photoshoot/photo1.jpg';
+
 
 const data = [
   {
     id: 1,
     icon: icon1,
     path: '/gallery/#wedding',
-    title: 'Email Subscription',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
+    title: 'A collection of our wedding snaps',
+    description: `We have the professional prowess and experience to cover your wedding and make your love life memorable`,
   },
   {
     id: 2,
     icon: icon2,
-    path: '#!',
-    title: 'Bolt Performance',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
+    path: '/gallery/#grad',
+    title: 'A collection of our graduation snaps',
+    description: `Did you just finished a degree or diploma, let's make your memory forever`,
   },
   {
     id: 3,
     icon: icon3,
-    path: '#!',
-    title: 'Secure Transaction',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
+    path: '/gallery//#photo',
+    title: 'A collection of random photoshoot',
+    description: `Everyone is photogenic with the right camera tools and expertise. `,
   },
-  {
-    id: 4,
-    icon: icon4,
-    path: '#!',
-    title: 'Multiple Options',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
-  },
-  {
-    id: 5,
-    icon: icon5,
-    path: '#!',
-    title: 'Customer Support',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
-  },
-  {
-    id: 6,
-    icon: icon6,
-    path: '#!',
-    title: 'Integrated with Shopify',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
-  },
+  
 ];
 
 const UltimateFeatures = () => {
@@ -62,8 +40,8 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          slogan="Ideal solutions for you"
-          title="Go beyond ultimate features"
+          slogan="Photography at its best "
+          title="Go beyond memories and see the past"
         />
         <Box sx={styles.grid}>
           {data?.map((item) => (

@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Heading, Text } from 'theme-ui';
 import SupportType from 'components/cards/support-type';
 import Image from 'components/image';
-import illustration from 'assets/images/support-2.png';
+import illustration from 'assets/images/support.jpg';
 import icon1 from 'assets/images/icons/1.png';
 import icon2 from 'assets/images/icons/2.png';
 
@@ -11,14 +11,14 @@ const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'Email client support',
-    text: `Ultimate access to all credit popular exercises and assessments materials`,
+    title: 'Live Coverage',
+    text: `Our team would be there to document your memorable event`,
   },
   {
     id: 2,
     icon: icon2,
-    title: 'Live ticket support',
-    text: `Total assessment corrections with live support tickets download access system`,
+    title: 'Media Support',
+    text: `We rent out and help you set up projectors and lightings for your event`,
   },
 ];
 
@@ -30,12 +30,10 @@ const Support = () => {
           <div sx={styles.content}>
             <div sx={styles.heading}>
               <Heading sx={styles.title}>
-                Do you need help? Our support team ready to help you
+                Do you need to cover an event? That is what we do best
               </Heading>
               <Text as="p" sx={styles.summary}>
-                Get your tests delivered at let home collect sample from the
-                victory of the managements that supplies best design system
-                guidelines ever.
+                We cover differnt events ranging from weddings, birthdays, naming ceremonies, graduation party and many more..
               </Text>
             </div>
             {/* <SectionHeading

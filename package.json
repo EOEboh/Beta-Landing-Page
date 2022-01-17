@@ -23,6 +23,7 @@
     "react-icons": "^4.2.0",
     "react-masonry-component": "^6.2.1",
     "react-multi-carousel": "^2.6.5",
+    "react-paystack": "^3.0.5",
     "react-responsive": "^8.2.0",
     "react-scroll": "^1.8.2",
     "react-slick": "^0.28.1",
