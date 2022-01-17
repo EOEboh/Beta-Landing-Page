@@ -1,7 +1,7 @@
 This is a landing page project built using `create-next-app` on Next.js.
 This [Next.js](https://nextjs.org/) project is bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Starting out
 You can fork and clone this repo
 
 Then, run the development server:
@@ -27,5 +27,7 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 
 ## Live
 You can view a live version of the project [here](https://betalandinginc.netlify.app)
+
+Project is uploaded on both Netlify and Vercel.
 
 I'll be making a few updates as time goes on
