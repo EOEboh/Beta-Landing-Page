@@ -3,65 +3,52 @@
 import { jsx, Box, Container, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
+import Link from 'next/link';
+
 
 const data = [
   {
     id: 1,
-    title: `01. Which domain should I purchase?`,
+    title: `01. Do you cover travelling events?`,
     contents: (
       <div>
-        Get your website tests delivered at the home collect a sample. Simply
-        contact us and we'll move your hosting account from any other provider,
-        regardless of the control panel. If at anytime your website is down for
-        more than 0.1% result with proper investigation experiments.
+        Yes we do. Just book a date with us at least one week before your intended event
       </div>
     ),
   },
   {
     id: 2,
-    title: `02. What are some tips when choosing a name?`,
+    title: `02. I lost my photos/videos you covered, can i recover them?`,
     contents: (
       <div>
-        We make it easy to move to CometNine. Simply contact us and we'll move
-        your hosting account from any other provider, regardless of the control
-        panel. If at anytime your website is down for more than 0.1% result with
-        proper investigation experiments.
+        Sure you can! We back-up our client's media for up to 3 years on the cloud storage. For an extended backup, it attracts a charge of NGN20,000. Recovery is free
       </div>
     ),
   },
   {
     id: 3,
-    title: `03. What if I need help choosing the right domain?`,
+    title: `03. Do you collect the entire pay before service?`,
     contents: (
       <div>
-        Create a hub for cross-functional work that also works with all. Simply
-        contact us and we'll move your hosting account from any other provider,
-        regardless of the control panel. If at anytime your website is down for
-        more than 0.1% result with proper investigation experiments.
+        We collect 70% of your total costs before service, this is to enable us prepare all the tools and materials we would be needing. The balance is paid after service is completed. 
       </div>
     ),
   },
   {
     id: 4,
-    title: `04. Can I upgrade or downgrade my web hosting subscription system?`,
+    title: `04. What if I do not like the pictures/videos? Do I get a refund?`,
     contents: (
       <div>
-        The pricing made me a little hesitant at first but I have been. Simply
-        contact us and we'll move your hosting account from any other provider,
-        regardless of the control panel. If at anytime your website is down for
-        more than 0.1% result with proper investigation experiments.
+        We have a no-refund policy after services have been rendered. We only give out a refund in the event that we do not show up.
       </div>
     ),
   },
   {
     id: 5,
-    title: `05. Learn from community on Brandwagon`,
+    title: `05. Do you have a training school?`,
     contents: (
       <div>
-        Stop your viewers from getting distracted. Publish videos to. Simply
-        contact us and we'll move your hosting account from any other provider,
-        regardless of the control panel. If at anytime your website is down for
-        more than 0.1% result with proper investigation experiments.
+        Yes we do offer a 4-month training on photography and 6-month training on videography. We would update on our website when we start taking new students
       </div>
     ),
   },
@@ -79,7 +66,11 @@ const Faq = () => {
 
         <Accordion items={data} />
         <Box sx={styles.loadMore}>
+          <Link href='https://wa.me/+2348140165937?text=Hi%2C+from+Beta+Photography%2C+how+can+i+help+you%3F&oq=Hi%2C+from+Beta+Photography%2C+how+can+i+help+you%3'>  
+          <a target='_blank' style={{textDecoration: 'none'}}> 
           <Button variant="text">Still Question? Contact us</Button>
+          </a>
+          </Link>
         </Box>
       </Container>
     </section>

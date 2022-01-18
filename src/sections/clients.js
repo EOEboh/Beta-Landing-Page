@@ -11,7 +11,7 @@ const Clients = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Company who also worked us"
+          title=" worked us"
           description="Every email, web page, and social media post makes an impression on your customers. With our software you can be confident it's impression."
           learnMore="Explore Details"
         />

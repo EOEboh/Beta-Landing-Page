@@ -5,40 +5,40 @@ import Masonry from 'react-masonry-component';
 import SectionHeading from 'components/section-heading';
 import Post from 'components/cards/post';
 
-import news1 from 'assets/images/blog/1.png';
-import news2 from 'assets/images/blog/2.png';
-import news3 from 'assets/images/blog/3.png';
-import news4 from 'assets/images/blog/4.png';
+import news1 from 'assets/images/blog/1.jpg';
+import news2 from 'assets/images/blog/2.jpg';
+import news3 from 'assets/images/blog/3.jpg';
+import news4 from 'assets/images/blog/4.jpg';
 
 const data = [
   {
     id: 1,
     image: news1,
-    title: 'Introducing our newest team with great experience',
+    title: 'Videography and what it entails',
     desc:
-      'Brian Halligan knows that you need more than a great product to have a great brand.',
+      'What type of videos suits what?',
     link: '#',
   },
   {
     id: 2,
     image: news2,
     title:
-      'New banking application has  developed and we expecting good feedback',
+      'Photography at night',
     desc: '',
     link: '#',
   },
   {
     id: 3,
     image: news3,
-    title: 'Ui/UX industry are doing great job in previous year history',
+    title: 'The right camera and photography tools to have',
     desc: '',
     link: '',
   },
   {
     id: 4,
     image: news4,
-    title: 'Develop you design experience with figma features.',
-    desc: '',
+    title: 'Choosing a niche in photography',
+    desc: 'There are various kinds of photography. Many are money spinners.....',
     link: '',
   },
 ];

@@ -99,7 +99,7 @@ const Pricing = () => {
         <SectionHeading
           sx={{ mb: [6, null, null, 14] }}
           slogan="Book a session with us now"
-          title=" Our pricing plan that suit you"
+          title=" pricing plan that suit you"
         />
         <Box sx={styles.grid}>
           {isTablet && (
