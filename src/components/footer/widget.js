@@ -42,6 +42,7 @@ const styles = {
         img: {
           mr: '15px',
         },
+      cursor: 'pointer'
       },
       a: {
         fontSize: '15px',

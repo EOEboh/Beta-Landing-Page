@@ -5,18 +5,18 @@ import { rgba } from 'polished';
 import Image from 'components/image';
 import SubscriptionForm from 'components/subscription-form';
 import bannerImg from 'assets/images/banner-bg2.jpg';
-import paypal from 'assets/images/paypal.png';
-import google from 'assets/images/google.png';
+import camera from 'assets/images/camera.png';
+import video from 'assets/images/video.png';
 import dropbox from 'assets/images/dropbox.png';
 
 const logos = [
   {
     name: 'Paypal',
-    src: paypal,
+    src: camera,
   }, 
   {
     name: 'Google',
-    src: google,
+    src: video,
   },
   {
     name: 'Dropbox',
@@ -31,7 +31,7 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-              A Creative way to grow your Exciting Business ideas
+              Photography and Videography Is What Makes Memories Immortal
             </Heading>
             <Text as="p">
               Get your tests delivered at let home collect sample from the
@@ -40,7 +40,7 @@ const Banner = () => {
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             <Flex sx={styles.sponsoredBy}>
-              <Text as="span">Our clients</Text>
+              <Text as="span">What we do:</Text>
               <Flex sx={styles.sponsor}>
                 {logos?.map((logo, index) => (
                   <Flex as="figure" key={index}>
@@ -84,7 +84,7 @@ const styles = {
       fontSize: [9, null, null, 10, 12, 45, 16],
       lineHeight: [1.31, null, null, 1.5, null, 1.26],
       letterSpacing: [0, null, null, null, '-1.5px'],
-      color: 'red',
+      color: '#808080',
     },
     p: {
       fontSize: ['13px', null, null, 2, 3],
@@ -125,7 +125,7 @@ const styles = {
     span: {
       fontSize: ['13px', null, null, null, 2],
       lineHeight: 2.62,
-      color: rgba('#566272', 0.6),
+      color: rgba('#fff', 0.8),
     },
   },
   sponsor: {

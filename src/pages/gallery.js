@@ -240,7 +240,7 @@ const styles = {
         textAlign: 'center',
         lineHeight: 1.6,
         fontSize:'20px',
-        fontFamily: 'Georgia, serif',
+        fontFamily: 'monospace',
         fontSize: [9, null, null, 10, 12, 45, 16],
         lineHeight: [1.31, null, null, 1.5, null, 1.26],
         letterSpacing: [0, null, null, null, '-1.5px'],

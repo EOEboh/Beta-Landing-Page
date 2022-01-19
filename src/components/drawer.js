@@ -26,7 +26,7 @@ const Drawer = ({
         placement={placement}
         handler={false}
         level={null}
-        duration="0.4s"
+        duration="1s"
         {...props}
       >
         {closeButton && (

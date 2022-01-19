@@ -4,24 +4,21 @@ export const menuItems = [
     title: 'Company',
     items: [
       {
-        path: '#!',
+        path: '#support',
         label: 'About',
       },
+      
       {
-        path: '#!',
-        label: 'Affiliate',
+        path: '#faq',
+        label: 'FAQs',
       },
       {
-        path: '#!',
-        label: 'Careers & Culture    ',
-      },
-      {
-        path: '#!',
+        path: '#blog',
         label: 'Blog',
       },
       {
         path: '#!',
-        label: 'Press',
+        label: '29, Cole Street Surulere, Lagos',
       },
     ],
   },
@@ -30,25 +27,22 @@ export const menuItems = [
     title: 'About Us',
     items: [
       {
-        path: '#!',
-        label: 'Support Center',
+        path: 'https://wa.me/+2348140165937?text=hi+my+name+is+___+I+need+you+help+on&oq=hi+my+name+is+___+I+need+you+help+on',
+        label: 'Contact Us (WhatsApp)',
       },
       {
-        path: '#!',
-        label: 'Customer Support',
+        path: 'tel:+2348140165937',
+        label: 'Contact Us (Phone)',
       },
       {
-        path: '#!',
-        label: 'About Us',
+        path: 'mailto:ecolejnr007@gmail.com',
+        label: 'Send Us a Mail',
       },
       {
         path: '#!',
         label: 'Copyright',
       },
-      {
-        path: '#!',
-        label: 'Popular Campaign',
-      },
+      
     ],
   },
   {
@@ -56,96 +50,72 @@ export const menuItems = [
     title: 'Our Information',
     items: [
       {
-        path: '#!',
+        path: '#faq',
         label: 'Return Policy ',
       },
       {
-        path: '#!',
+        path: '#faq',
         label: 'Privacy Policy',
       },
       {
-        path: '#!',
+        path: '#faq',
         label: 'Terms & Conditions',
       },
       {
         path: '#!',
         label: 'Site Map',
       },
-      {
-        path: '#!',
-        label: 'Store Hours',
-      },
+      
     ],
   },
   {
     id: 4,
-    title: 'My Account',
+    title: 'Opening Hours',
     items: [
       {
         path: '#!',
-        label: 'Press inquiries',
+        label: 'Monday to Thursday : 8am to 8pm',
       },
       {
         path: '#!',
-        label: 'Social media ',
+        label: 'Friday: 8am to 7pm ',
       },
       {
         path: '#!',
-        label: 'directories',
+        label: 'Saturday: 9am to 6pm',
       },
       {
         path: '#!',
-        label: 'Images & B-roll',
+        label: 'Sundays: Closed',
       },
       {
         path: '#!',
-        label: 'Permissions',
+        label: 'On Hire: Available by event time',
       },
     ],
   },
-  {
-    id: 5,
-    title: 'Policy',
-    items: [
-      {
-        path: '#!',
-        label: 'Application security',
-      },
-      {
-        path: '#!',
-        label: 'Software principles',
-      },
-      {
-        path: '#!',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '#!',
-        label: 'Responsible supply chain',
-      },
-    ],
-  },
+  
 ];
 
 export const footerNav = [
   {
-    path: '#!',
+    path: '/',
     label: 'Home',
   },
   {
-    path: '#!',
-    label: 'Advertise',
+    path: '#feature',
+    label: 'Feature',
   },
   {
-    path: '#!',
-    label: 'Supports',
+    path: '#pricing',
+    label: 'Pricing',
   },
   {
-    path: '#!',
-    label: 'Marketing',
+    path: '#support',
+    label: 'Support',
   },
   {
-    path: '#!',
+    path: '#faq',
     label: 'FAQ',
   },
 ];

@@ -1,6 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Flex, Input, Button, Label } from 'theme-ui';
+import Link from 'next/link';
 
 const SubscriptionForm = ({ buttonLabel, ...props }) => {
   return (
@@ -9,7 +10,11 @@ const SubscriptionForm = ({ buttonLabel, ...props }) => {
         Email
       </Label>
       <Input type="email" id="email" placeholder="Enter Email address" />
+      <Link href='/contact'> 
+      <a target='_blank' style={{textDecoration: 'none'}}> 
       <Button>{buttonLabel ?? 'Get Started'}</Button>
+      </a>
+      </Link>
     </Flex>
   );
 };
@@ -27,6 +32,7 @@ const styles = {
     },
     button: {
       ml: [3],
+      backgroundColor: '#808080'
     },
   },
 };

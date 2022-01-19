@@ -1,12 +1,13 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container } from 'theme-ui';
+import { jsx, Container, Image } from 'theme-ui';
 import { useState } from 'react';
 import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
-import Logo from 'components/logo';
+import Logo from 'assets/images/myLogo.png';
 import { NavLink } from 'components/link';
+import Link from 'next/link';
 
 import menuItems from './header.data';
 
@@ -35,7 +36,11 @@ export default function Header() {
           className={state.isSticky ? 'is-sticky' : ''}
         >
           <Container sx={styles.container}>
-            <Logo sx={styles.logo} />
+            <Link href='/'> 
+              <a>   
+            <Image src={Logo} alt='Logo' sx={styles.logo}/> 
+              </a>
+            </Link>
             <nav as="nav" sx={styles.navbar} className={'navbar'}>
               {menuItems.map(({ path, label }, i) => (
                 <NavLink key={i} path={path} label={label} />

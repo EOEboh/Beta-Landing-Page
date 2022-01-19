@@ -10,12 +10,12 @@ export default {
     background: "#FFFFFF", // body background color
     backgroundSecondary: "#F9FAFC", // secondary background color
     borderColor: "#E9EDF5", // border color
-    primary: "#56BBD0", // primary button and link color
+    primary: "#A9A9A9", // primary button and link color
     secondary: "#FFC059", // secondary color - can be used for hover states
     muted: "#7B8188", // muted color
     accent: "#609", // a contrast color for emphasizing UI
-    dark: "#10132D",
-    link: "#3183FF",
+    dark: "#009e60",
+    link: "#ff6347",
     // highlight	a background color for highlighting text
     // modes: {
     //   dark: {

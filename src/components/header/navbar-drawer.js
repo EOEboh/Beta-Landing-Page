@@ -2,10 +2,11 @@
 /** @jsx jsx */
 import { jsx, Box, Image, Button, MenuButton } from 'theme-ui';
 import React, { useContext } from 'react';
-import { Link } from 'react-scroll';
+import { Link as A } from 'react-scroll';
+import Link from 'next/link';
 import { DrawerContext } from 'contexts/drawer/drawer-context';
 import Drawer from 'components/drawer';
-import Logo from 'components/logo';
+import Logo from 'assets/images/myLogo.png';
 import menuItems from './header.data';
 import close from 'assets/images/icons/close.png';
 
@@ -40,25 +41,29 @@ const NavbarDrawer = () => {
       closeBtnStyle={styles.close}
     >
       <Box sx={styles.wrapper}>
-        <Logo sx={styles.logo} />
+        <Image src={Logo} alt='Logo'/>
         <Box as="ul" sx={styles.navbar}>
           {menuItems.map(({ path, label }, i) => (
             <Box as="li" key={i}>
-              <Link
+              <A
                 activeClass="active"
                 to={path}
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                duration={700}
               >
                 {label}
-              </Link>
+              </A>
             </Box>
           ))}
         </Box>
-        <Button variant="primary" sx={styles.donateNow}>
-          Donate Now
+        <Button variant="primary" sx={styles.donateNow}> 
+        <Link href='/checkout'> 
+         <a style={{textDecoration: 'none'}}> 
+          Book Us Now
+        </a>
+        </Link>
         </Button>
       </Box>
     </Drawer>

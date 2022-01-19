@@ -1,8 +1,9 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Text, Container } from 'theme-ui';
-import Logo from 'components/logo';
-import { Link } from 'components/link';
+import { jsx, Box, Text, Container, Image } from 'theme-ui';
+import Logo from 'assets/images/myLogo.png';
+import { Link as A } from 'components/link';
+import Link  from 'next/link';
 import FooterWidget from 'components/footer/widget';
 import { menuItems, footerNav } from './footer.data';
 import { rgba } from 'polished';
@@ -20,16 +21,20 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footerInner}>
           <Box sx={styles.copyright}>
-            <Logo sx={styles.logo} />
+              <Link href='/'>
+                <a>    
+              <Image src={Logo} alt='Logo' sx={styles.logo}/>
+                </a>
+              </Link>
             <Text as="span">
-              Copyright by {new Date().getFullYear()} RedQ, Inc
+              Copyright by {new Date().getFullYear()} Emmanuel Eboh
             </Text>
           </Box>
 
           <Box as="ul" sx={styles.footerNav}>
             {footerNav.map(({ path, label }, i) => (
               <li key={i}>
-                <Link path={path} key={i} label={label} variant="footer" />
+                <A path={path} key={i} label={label} variant="footer" />
               </li>
             ))}
           </Box>
@@ -90,6 +95,7 @@ const styles = {
         mb: '10px',
       },
     },
+    cursor: 'pointer',
     a: {
       color: 'textSecondary',
       fontSize: [1, null, null, 2],
