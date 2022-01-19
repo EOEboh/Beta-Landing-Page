@@ -89,7 +89,7 @@ const styles = {
     p: {
       fontSize: ['13px', null, null, 2, 3],
       lineHeight: [1.87, null, null, 2, null, 2.33],
-      color: '#808080',
+      color: '#ff6347',
       maxWidth: [null, null, 370, 470],
       m: ['20px auto 0', null, null, null, '25px auto 0'],
     },
