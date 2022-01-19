@@ -34,9 +34,7 @@ const Banner = () => {
               Photography and Videography Is What Makes Memories Immortal
             </Heading>
             <Text as="p">
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+              Events: Weddings, Birthdays, Naming Ceremonies, Graduation Parties, House Parties, Conferences, Presentations and many more
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             <Flex sx={styles.sponsoredBy}>
