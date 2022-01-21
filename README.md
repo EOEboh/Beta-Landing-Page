@@ -25,6 +25,18 @@ To learn more about Next.js, check out the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) 
 
+## Libraries
+#### [Theme UI:](https://theme-ui.com/)
+For creating themeable user interfaces based on constraint-based design
+ principles.
+#### [React-Scroll](https://www.npmjs.com/package/react-scroll)
+For animated scrolling between links 
+#### [React-multi carousel](https://www.npmjs.com/package/react-multi-carousel)
+For creating carousel components
+#### [RC Drawer](https://www.npmjs.com/package/rc-drawer)
+For creating drawer components for mobile version
+
+
 ## Live
 You can view a live version of the project [here](https://betalandinginc.netlify.app)
 
