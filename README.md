@@ -30,7 +30,7 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 For creating themeable user interfaces based on constraint-based design
  principles.
 #### [React-Scroll](https://www.npmjs.com/package/react-scroll)
-For animated scrolling between links 
+For animated scrolling between sections from the drawer
 #### [React-multi carousel](https://www.npmjs.com/package/react-multi-carousel)
 For creating carousel components
 #### [RC Drawer](https://www.npmjs.com/package/rc-drawer)
