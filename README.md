@@ -1,4 +1,4 @@
-This is a landing page project built using `create-next-app` on Next.js.
+
 This [Next.js](https://nextjs.org/) project is bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Starting out
